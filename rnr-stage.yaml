@@ -15,3 +15,8 @@ modules:
   single_cycle_riscv_m:
     source_files:
       - Single_Cycle_RISCV_M/rtl.sv
+      - Single_Cycle_RISCV_M/rv32_imm_gen.sv
+      - Single_Cycle_RISCV_M/rv32_regfile.sv
+      - Single_Cycle_RISCV_M/rv32_alu.sv
+      - Single_Cycle_RISCV_M/rv32m_muldiv.sv
+      - Single_Cycle_RISCV_M/rv32_csr.sv

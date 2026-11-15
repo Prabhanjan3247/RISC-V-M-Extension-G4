@@ -1,0 +1,26 @@
+# Build outputs (ELF, hex, traces, signatures, Icarus .vvp, Yosys netlists and logs)
+build/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Waveforms
+*.vcd
+*.fst
+*.ghw
+
+# Local clones of riscv-arch-test (pass the path to run_compliance.py --arch-test)
+riscv-arch-test-*/
+/riscv-arch-test/
+
+# Editor / OS files
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# tests/generated/*.S are the regression programs: keep them committed.
