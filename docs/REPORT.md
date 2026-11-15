@@ -217,7 +217,7 @@ Every program fits the 512-word CI instruction memory.
 | Generated (59) + directed (1) programs, CI memory model, store trace vs golden model | **60 / 60 match** |
 | CPI | 1.00 (single cycle; for example the 16-iteration `loop_00` runs 1441 cycles) |
 | Yosys 0.33 synthesis | PASS: 12/12 ports, no latches, one clock, no init values; 30 251 cells, 1405 flip-flops |
-| Gate-level netlist simulation (`loop_00` to `loop_03`, which use every M op) | **4 / 4 match**; gate-level simulation takes about 8 min per program in Icarus, so only this subset was run |
+| Gate-level netlist simulation (`loop_00` to `loop_04`, `special_00`, `mix_00`: every M op, all special operand pairs of the first chunk, a random RV32IM mix) | **7 / 7 match**; gate-level simulation takes several minutes per program in Icarus, so only this subset was run |
 
 The per-test compliance table is in [compliance/results/compliance_report.md](../compliance/results/compliance_report.md).
 

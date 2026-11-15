@@ -30,7 +30,7 @@ Mentor: Ananya Varma
 | 59 generated + 1 directed program, CI memory model, store trace vs golden model | 60/60 match |
 | CPI on the generated programs | 1.00 |
 | Yosys 0.33 synthesis (CI version) | passes: 12/12 ports, no latches, one clock, no init values; 30 251 cells, 1405 flip-flops |
-| Gate-level (post-synthesis) simulation, `loop_00` to `loop_03` | 4/4 match (see [docs/REPORT.md, section 7](docs/REPORT.md#7-results)) |
+| Gate-level (post-synthesis) simulation, `loop_00`-`loop_04`, `special_00`, `mix_00` | 7/7 match (see [docs/REPORT.md, section 7](docs/REPORT.md#7-results)) |
 
 Per-test compliance numbers: [compliance/results/compliance_report.md](compliance/results/compliance_report.md).
 
